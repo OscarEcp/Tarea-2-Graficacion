@@ -17,7 +17,7 @@ MainWindow::MainWindow(QWidget *parent)
     this->setFixedSize(QSize(457,600));
 
     // Cargarmos la imagen en un QImage para modificar los pixeles más efcientemente.
-    QImage imagenOriginal("Pixar_UP.png");
+    QImage imagenOriginal(":/Pixar_UP.png");
 
     // Ajustamos la imagen al tamaño de la ventana ignorando que se mantenga la escala de la imagen
     // para que así ocupe todo el espacio de despliegue.
